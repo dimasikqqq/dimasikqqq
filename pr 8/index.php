@@ -8,12 +8,16 @@
 </head>
 <body>
 
-    <h3>Авторизуйтесь<h3>
-     <p><span class="error"> * Обязательное поле </span></p>
+    <h3>Log in<h3>
+
      <form action="action.php" method="post">
-     <p>Логин:<span class="error">* <input type="text" name="login"></p>     
-     <p>Пароль:<span class="error">* <input type="password" name="password"></p>
-     <p><input type="submit" value="Войти"></p> 
+
+     <p>Login:<span class="error"> <input type="text" name="login"></p>  
+
+     <p>Password:<span class="error"> <input type="password" name="password"></p>
+     
+     <p><input type="submit" value="Sign in"></p> 
+
      </form>
      
 </body>
